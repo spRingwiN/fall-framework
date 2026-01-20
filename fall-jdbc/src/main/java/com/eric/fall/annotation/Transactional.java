@@ -7,4 +7,7 @@ import java.lang.annotation.*;
 @Documented
 @Inherited
 public @interface Transactional {
+
+    String value() default "platformTransactionManager";
+
 }
