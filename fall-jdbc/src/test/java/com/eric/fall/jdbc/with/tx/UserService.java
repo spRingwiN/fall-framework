@@ -39,6 +39,12 @@ public class UserService {
 
     }
 
+     public final String greet() {
+        // not enhanced, injection properties are null, and the class name is the proxied class
+         System.out.println("=============" + this.addressService);
+        System.out.println("=============" + this.getClass().getName());
+        return "hello world";
+    }
 
 
 

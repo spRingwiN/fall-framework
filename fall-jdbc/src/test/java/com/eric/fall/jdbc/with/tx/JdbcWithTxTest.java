@@ -49,6 +49,7 @@ public class JdbcWithTxTest extends JdbcTestBase {
             // bob and his address still exist
             assertEquals("Bob", userService.getUser(1).name);
             assertEquals(2, addressService.getAddresses(1).size());
+            System.out.println(userService.greet());
         }
 
         // re-open db and query:

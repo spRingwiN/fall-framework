@@ -33,8 +33,8 @@ public class JdbcTestBase {
     public PropertyResolver createPropertyResolver() {
         var ps = new Properties();
         ps.put("fall.datasource.url", "jdbc:mysql://127.0.0.1:3306/crm?zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowMultiQueries=true");
-        ps.put("fall.datasource.username", "****");
-        ps.put("fall.datasource.password", "****");
+        ps.put("fall.datasource.username", "crm_test");
+        ps.put("fall.datasource.password", "1syh|9t");
         ps.put("fall.datasource.driver-class-name", "com.mysql.cj.jdbc.Driver");
         var pr = new PropertyResolver(ps);
         return pr;

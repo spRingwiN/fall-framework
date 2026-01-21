@@ -1,4 +1,4 @@
-package com.eric.fall.jdbc.with.tx;
+package com.eric.fall.jdbc.without.tx;
 
 public class User {
 
@@ -11,6 +11,5 @@ public class User {
     public void setAge(Integer theAge) {
         this.theAge = theAge;
     }
-
 
 }
