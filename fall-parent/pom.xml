@@ -23,6 +23,7 @@
     <module>../fall-aop</module>
     <module>../fall-jdbc</module>
     <module>../fall-web</module>
+    <module>../fall-boot</module>
   </modules>
 
   <licenses>
